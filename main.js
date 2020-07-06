@@ -4,9 +4,9 @@ function calculate(){
 	var distance = document.getElementById('dis').value;
 //set an amount for the speed that the user isn't possible of changing
 	var speed = 7000;
-//Set the time 
+//Make the math for the time, so how much time will it take to travel
 	var time = ((distance/speed)*60);
-
+//make sure the element of the value of time will be replaced with the new time.
 	document.getElementById("timeValue").value= time;
 
 }
