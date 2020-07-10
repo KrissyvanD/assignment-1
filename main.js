@@ -20,6 +20,7 @@ var fuelCountdown = setInterval(function()
   if (counter === 20) {
     alert("Fuel almost empty, please refill.");
 
-    clearInterval(fuelCountdown);
+    clearInterval(fuelCountdown); 
   }  
 }, 1000);
+
